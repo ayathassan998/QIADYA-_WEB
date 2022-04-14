@@ -1,0 +1,185 @@
+/*
+## Created by Ayat Hassan UI/UX Designer.
+## This file contains the style of the most used components of the website.
+*/
+
+.section_container .main_section .right_section img {
+	position: absolute;
+	bottom: 0;
+	right: 30%;
+	left: 0;
+	width: 70%;
+}
+
+.section_container .Objectives_section h3 {
+	margin: 0px 24px 32px 0px;
+	padding-left: 0px;
+	padding-right: 12px;
+}
+
+.section_container .section_body .step_item{
+	box-shadow: 0px 2px 6px #ccc;
+}
+
+.section_container .section_body .step_num {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	box-shadow: 0px 2px 6px #ccc;
+}
+
+.section_container .section_body .step_content {
+	margin-right: 32px;
+	margin-left: 0px;
+}
+
+.data_box_container .data_box_item .data_box_header {
+	left: initial;
+	top: -28px;
+	right: -20px;
+}
+
+.Partner_Info .Partners_header label {
+	border-bottom-left-radius: initial;
+	border-top-left-radius: initial;
+	border-bottom-right-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.bottom_partner .partner_logo .partner_img {
+	margin-right: initial;
+	margin-left: 28px;
+}
+
+.bottom_partner .partner_logo .partner_img:last-child{
+	margin-left: 0px;
+}
+
+.ContactUs_section .ContactUs_Data {
+	background-image: url(../images/contact_us_AR.png);
+}
+
+.backgroud_shape_AR {
+	background-image: url(../images/back_head_AR.png);
+	background-position: 100% 60%;
+}
+
+.section_container:first-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 36%;
+}
+
+.section_container .section_body .step_num {
+	margin-right: 0px;
+	margin-left: 12px;
+	box-shadow: 3px 2px 6px #ccc;
+}
+
+.navbar-nav .nav-item .nav-link {
+	margin-right: 0px;
+	margin-left: 12px;
+}
+
+
+.navbar-brand .desktop_brand div {
+	border-right: none;
+	border-left: 1px solid #fff;
+	margin-right: initial;
+	margin-left: 6px;
+}
+
+.navbar-brand .desktop_brand div:last-child {
+	border-left: none;
+}
+
+
+.section_container .ContactUs_section .section_header {
+	margin-right: 28px;
+	margin-left: 0px;
+}
+
+.section_container .main_section .left_section img:first-child {
+	border-left: 3px solid;
+	margin-left: 12px;
+	border-right: 0px;
+	margin-right: 0px;
+}
+
+.main_footer .footer_social img:last-child {
+	border: 0px;
+}
+
+@media (min-width: 1399px) {
+	.section_container .main_section .right_section img{
+		width: 58%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.section_container .main_section .right_section img {
+		width: 80%;
+		right: 0%;
+	}
+}
+
+@media (max-width: 991px) {
+	.section_container .main_section .right_section img {
+		width: 100%;
+		right: -6%;
+	}
+
+	.bottom_partner .partner_logo .partner_img {
+		margin-right: initial;
+		margin-left: 12px;
+	}
+
+	.navbar-nav {
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+		margin-left: 0px;
+	}
+
+	.app_header .Nav_btn .button {
+		padding: 0px 14px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section_container .main_section .right_section {
+		background-image: none;
+	}
+
+	.section_container:first-child {
+		background-image: url(../images/back_img.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+	}
+
+	.bottom_partner .partner_logo .partner_img {
+		margin-right: initial;
+		margin-left: 8px;
+	}
+
+	.bottom_partner .partner_logo .partner_img:last-child{
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 630px) {
+	.Top_footer .footer_img img{
+		width: 80%;
+	}
+}
+
+@media (max-width: 575px) {
+	.top_partner .Partners_header label,
+	.bottom_partner .Partners_header label {
+		border-radius: 16px;
+	}
+}
